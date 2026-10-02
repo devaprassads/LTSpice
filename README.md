@@ -12,7 +12,7 @@ A library of CMOS logic gates built in LTspice using a 180 nm BSIM3 model, each 
   - [`or/`](digilib/or)
   - [`xor/`](digilib/xor)
   - [`xnor/`](digilib/xnor)
-- [`model/`](model) — device models
+- [`model/`](model) — device model
   - [`bsim3_180nm.cir`](model/bsim3_180nm.cir)
 
 ### `model/`
@@ -31,7 +31,7 @@ A library of CMOS logic gates built in LTspice using a 180 nm BSIM3 model, each 
 | XOR | [`xor`](digilib/xor) | [`xor1x`](digilib/xor/symbol/xor1x.asy) | 6 PMOS + 6 NMOS + `inv1x` |
 | XNOR | [`xnor`](digilib/xnor) | [`xnor1x`](digilib/xnor/symbol/xnor1x.asy) | 6 PMOS + 6 NMOS |
 
-Each gate folder has the same four subfolders: `schematic/` (`.asc` and image), `symbol/` (`.asy` and image), `test bench/` (`_tb_tran.asc` and image) and `output/` (netlist and waveform images, present in `and/` and `inverter/` only; other gates keep waveforms in `test bench/`).
+Each gate folder contains the schematic,symbol,testbench and output waveforms of the gates. 
 
 ### Schematics, test benches and waveforms
 
@@ -55,4 +55,4 @@ Each gate folder has the same four subfolders: `schematic/` (`.asc` and image), 
 
 ## Author
 
-Deva Prassad S, B.Tech ECE, IIIT Kottayam — [@devaprassads](https://github.com/devaprassads)
+Deva Prassad S — [@devaprassads](https://github.com/devaprassads)
