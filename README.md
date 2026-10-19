@@ -61,7 +61,7 @@ The two input bits select one of four output lines.
 - [Output waveform](https://github.com/devaprassads/LTSpice/blob/main/latch/srlatch_op.png)
 
 ### Flip-Flops
-The repository includes D, JK, SR, and T flip-flop designs.
+The folder contains D, JK, SR, and T flip-flop designs.
 
 | Flip-flop | Schematic | Test bench | Output |
 |---|---|---|---|
@@ -70,7 +70,7 @@ The repository includes D, JK, SR, and T flip-flop designs.
 | SR | [sr_flipflop.asc](https://github.com/devaprassads/LTSpice/blob/main/flipflops/sr_flipflop/sr_flipflop.asc) | [Test bench](https://github.com/devaprassads/LTSpice/blob/main/flipflops/sr_flipflop/sr_flipflop_tb.asc) | [Waveform](https://github.com/devaprassads/LTSpice/blob/main/flipflops/sr_flipflop/srff_op.png) |
 | T | [T_flipflop.asc](https://github.com/devaprassads/LTSpice/blob/main/flipflops/t_flipflop/T_flipflop.asc) | [Test bench](https://github.com/devaprassads/LTSpice/blob/main/flipflops/t_flipflop/T_flipflop_tb_tran.asc) | [Waveform](https://github.com/devaprassads/LTSpice/blob/main/flipflops/t_flipflop/tff_op.png) |
 
-A D flip-flop with preset/clear control is also included:
+D flip-flop with preset/clear 
 
 - [D flip-flop with preset/clear schematic](https://github.com/devaprassads/LTSpice/blob/main/dff%20with%20pc/Dff_with_pc.asc)
 - [Test bench](https://github.com/devaprassads/LTSpice/blob/main/dff%20with%20pc/dff_with_pc_tb.asc)
@@ -78,7 +78,7 @@ A D flip-flop with preset/clear control is also included:
 - [Simulation output](https://github.com/devaprassads/LTSpice/blob/main/dff%20with%20pc/dff_pc_op.png)
 
 ### Up and Down Counters
-Both positive-edge and negative-edge versions are included.
+Positive-edge and negative-edge versions of up,down counters
 
 | Circuit | Schematic | Test bench | Output |
 |---|---|---|---|
@@ -88,7 +88,7 @@ Both positive-edge and negative-edge versions are included.
 | Down counter, negative edge | [down_counter_neg.asc](https://github.com/devaprassads/LTSpice/blob/main/down%20counter/neg%20edge/down_counter_neg.asc) | [Test bench](https://github.com/devaprassads/LTSpice/blob/main/down%20counter/neg%20edge/down_counter_tb_neg.asc) | [Waveform](https://github.com/devaprassads/LTSpice/blob/main/down%20counter/neg%20edge/down_neg_tb.png) |
 
 ### Shift Registers
-The repository contains serial and parallel shift-register designs.
+The folder contains serial and parallel shift-register designs.
 
 - **Serial:** [Schematic](https://github.com/devaprassads/LTSpice/blob/main/shift%20register/series/shift_reg.asc) · [Symbol](https://github.com/devaprassads/LTSpice/blob/main/shift%20register/series/shift_reg.asy) · [Test bench](https://github.com/devaprassads/LTSpice/blob/main/shift%20register/series/shift_reg_tb.asc) · [Output](https://github.com/devaprassads/LTSpice/blob/main/shift%20register/series/series_op.png)
 - **Parallel:** [Schematic](https://github.com/devaprassads/LTSpice/blob/main/shift%20register/parallel/parallel_shift_reg.asc) · [Symbol](https://github.com/devaprassads/LTSpice/blob/main/shift%20register/parallel/parallel_shift_reg.asy) · [Test bench](https://github.com/devaprassads/LTSpice/blob/main/shift%20register/parallel/parallel_shift_reg_tb.asc) · [Shift output](https://github.com/devaprassads/LTSpice/blob/main/shift%20register/parallel/parallel_shift_op.png) · [Parallel-load output](https://github.com/devaprassads/LTSpice/blob/main/shift%20register/parallel/parallel_load_op.png)
