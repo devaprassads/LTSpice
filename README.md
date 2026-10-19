@@ -25,7 +25,7 @@ The gate library also contains reusable LTspice symbols (`.asy`) and additional 
 A one-bit full adder produces a sum and carry output from inputs A, B, and carry-in.
 
 - [Full-adder schematic](https://github.com/devaprassads/LTSpice/blob/main/FullAdder/full_adder.asc)
-- [Reusable symbol](https://github.com/devaprassads/LTSpice/blob/main/FullAdder/full_adder.asy)
+- [symbol](https://github.com/devaprassads/LTSpice/blob/main/FullAdder/full_adder.asy)
 - [Test bench](https://github.com/devaprassads/LTSpice/blob/main/FullAdder/full_adder_tb.asc)
 - [Schematic image](https://github.com/devaprassads/LTSpice/blob/main/FullAdder/fulladder_schematic.png)
 - [Simulation output](https://github.com/devaprassads/LTSpice/blob/main/FullAdder/fulladder_op.png)
@@ -35,7 +35,7 @@ A one-bit full adder produces a sum and carry output from inputs A, B, and carry
 The select input chooses which data input is passed to the output.
 
 - [Multiplexer schematic](https://github.com/devaprassads/LTSpice/blob/main/mux/mux21.asc)
-- [Reusable symbol](https://github.com/devaprassads/LTSpice/blob/main/mux/mux21.asy)
+- [symbol](https://github.com/devaprassads/LTSpice/blob/main/mux/mux21.asy)
 - [Test bench](https://github.com/devaprassads/LTSpice/blob/main/mux/mux21_tb_tran.asc)
 - [Schematic image](https://github.com/devaprassads/LTSpice/blob/main/mux/mux21_schematic.png)
 - [Simulation output](https://github.com/devaprassads/LTSpice/blob/main/mux/mux21_op.png)
@@ -45,7 +45,7 @@ The select input chooses which data input is passed to the output.
 The two input bits select one of four output lines.
 
 - [Decoder schematic](https://github.com/devaprassads/LTSpice/blob/main/decoder/decoder24.asc)
-- [Reusable symbol](https://github.com/devaprassads/LTSpice/blob/main/decoder/decoder24.asy)
+- [symbol](https://github.com/devaprassads/LTSpice/blob/main/decoder/decoder24.asy)
 - [Test bench](https://github.com/devaprassads/LTSpice/blob/main/decoder/decoder24_tb_tran.asc)
 - [Schematic image](https://github.com/devaprassads/LTSpice/blob/main/decoder/decoder24_schematic.png)
 - [Simulation output](https://github.com/devaprassads/LTSpice/blob/main/decoder/decoder24_op.png)
@@ -55,7 +55,7 @@ The two input bits select one of four output lines.
 
 ### Latch
 - [SR latch schematic](https://github.com/devaprassads/LTSpice/blob/main/latch/srlatch.asc)
-- [Reusable symbol](https://github.com/devaprassads/LTSpice/blob/main/latch/srlatch.asy)
+- [symbol](https://github.com/devaprassads/LTSpice/blob/main/latch/srlatch.asy)
 - [Test bench](https://github.com/devaprassads/LTSpice/blob/main/latch/srlatch_tb_tran.asc)
 - [Schematic image](https://github.com/devaprassads/LTSpice/blob/main/latch/srlatch_schematic.png)
 - [Output waveform](https://github.com/devaprassads/LTSpice/blob/main/latch/srlatch_op.png)
@@ -99,12 +99,12 @@ The [`mos chara/`](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara
 
 | Study | Schematic / file | Result |
 |---|---|---|
-| Drain current vs. drain-source voltage (\(I_D\)–\(V_{DS}\)) | [VdsvsId.asc](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/Id_vs_Vds/VdsvsId.asc) | [Plot](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/Id_vs_Vds/VdsvsId.png) |
-| Drain current vs. gate-source voltage (\(I_D\)–\(V_{GS}\)) | [IdvsVgs.asc](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/Id_vs_Vgs/IdvsVgs.asc) | [Plot](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/Id_vs_Vgs/IdvsVgs.png) |
+| Drain current vs. drain-source voltage (\(I_D\)–\(V_DS\)) | [VdsvsId.asc](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/Id_vs_Vds/VdsvsId.asc) | [Plot](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/Id_vs_Vds/VdsvsId.png) |
+| Drain current vs. gate-source voltage (\(I_D\)–\(V_GS\)) | [IdvsVgs.asc](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/Id_vs_Vgs/IdvsVgs.asc) | [Plot](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/Id_vs_Vgs/IdvsVgs.png) |
 | Transconductance (\(g_m\)) | [gm.asc](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/gm/gm.asc) | [Result](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/gm/gm_op.png) |
-| Threshold voltage (\(V_{th}\)) | [vth.asc](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/vth/vth.asc) | [Result](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/vth/vth_op.png) |
-| Gate capacitance (\(C_{gg}\)) | [Cgg.asc](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/cgg/Cgg.asc) | [Result](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/cgg/cgg_op.png) |
-| Drain capacitance (\(C_{dd}\)) | [Cdd.asc](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/cdd/Cdd.asc) | [Result](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/cdd/cdd_op.png) |
+| Threshold voltage (\(V_th\)) | [vth.asc](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/vth/vth.asc) | [Result](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/vth/vth_op.png) |
+| Gate capacitance (\(C_gg\)) | [Cgg.asc](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/cgg/Cgg.asc) | [Result](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/cgg/cgg_op.png) |
+| Drain capacitance (\(C_dd\)) | [Cdd.asc](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/cdd/Cdd.asc) | [Result](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/cdd/cdd_op.png) |
 | Delay | [time.asc](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/delay/time.asc) | [Result](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/delay/time_op.png) |
 | Parameter \(k\) | [k.asc](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/k/k.asc) | [Result](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/k/k_op.png) |
 | Power | [power.asc](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/power/power.asc) | [Result](https://github.com/devaprassads/LTSpice/blob/main/mos%20chara/power/power_op.png) |
